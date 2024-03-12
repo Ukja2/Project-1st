@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Sunflower:wght@300&display=swap');
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+
+}
+/*상단 메뉴*/
+.logo{
+    font-family: "Gugi", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 35px;
+    height: 13px;
+}
+.sub_logo{
+    font-family: "Gugi", sans-serif;
+    font-size: 15px;
+    padding-left: 35px;
+}
+.header{
+    font-family: 'Happiness-Sans-Bold';
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+    height: 75px;
+
+}
+.nav{
+    display: flex;
+    margin-left: auto;
+    padding-right: 40px;
+    margin-top: 10px;
+
+}
+.nav > li{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 13px;
+    border-right:gray solid 1px;
+    border-right-width: thin;
+    height:20px;
+    padding-right: 25px;
+
+
+} 
+.nav > a > i{
+    font-size: 25px;
+    margin-top: 23px;
+    margin-left: 40px;
+}
+.header_2{
+    font-family: 'Happiness-Sans-Bold';
+    display: flex;
+
+}
+.nav_2{
+    display: flex;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    margin-top: 3px;
+
+}
+.nav_2 > li{
+    padding-right: 40px;
+    
+    
+}
+.search_area{
+	width: 500px;
+	height: 50px;
+	background-color: (0,0,0,0);
+    border: gray solid 1px;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+    padding-left: 25px;
+    margin-top: 105px;
+    margin-left: 460px;
+}
+.search_area > form > i{
+    font-size: 20px;
+}
+.search_area > form > input{
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 10px;
+    width: 390px;
+}
+.fa-city{
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.fa-building {
+    font-size: 20px;
+    padding: 10px; 
+    cursor: pointer;
+}
+.search_condition{
+    font-family: 'Happiness-Sans-Bold';
+    display: flex;
+    margin-top: 20px;
+    margin-left: 430px;
+    
+}
+.search_condition > .detail1 {
+    display: flex;
+    margin:10px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-size: 14px;
+}
+.search_condition > .detail2 {
+    display: flex;
+    margin:10px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}.search_condition > .detail3 {
+    display: flex;
+    margin:10px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-size: 14px;
+}.search_condition > .detail4 {
+    display: flex;
+    margin:10px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-size: 14px;
+}
+.fa-caret-down{
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 40px;
+    padding-right: 10px;
+}
+.information{
+    margin-left: 48%;
+    margin-top: 100px;
+    font-family: 'Happiness-Sans-Bold';
+    font-size: 25px;
+}
+.information2{
+    font-family: 'Happiness-Sans-Bold';
+    margin-bottom:50px;
+    margin-left: 44%;
+    font-size: 13.5px;
+}
+.box {
+    display: flex;
+}
+
+.window1 {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+  }
+.real_information{
+    font-family: 'Happiness-Sans-Bold';
+}
+.fa-plus{
+    margin-left:280px;
+    margin-top: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.real_information > li {
+    padding: 5px;
+}
+.window2 {
+    font-family: 'Happiness-Sans-Bold';
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+  }
+.fa-1{
+    margin-left: 10px;
+    margin-top: 16px;
+}
+.window2 > div {
+    padding-top:15px;
+    margin: 0 auto;
+}
+.fa-list{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.window3 {
+    display: flex;
+    padding: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+  }
+.window3 > img{
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    margin-top: 10px;
+}
+.fa-chevron-left{
+    margin-top: 70px;
+    padding: auto;
+}
+.fa-chevron-right{
+    margin-top: 70px;
+    padding: auto;
+}
+.underline {
+    border-bottom:gray solid 3px;
+    margin-top: 40px;
+}
+
